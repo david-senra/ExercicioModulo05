@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    background-color: #fafbfb;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+header h1 {
+    font-family: 'Roboto, sans-serif';
+    color: #fff;
+    background-color: black;
+    font-weight: bolder;
+    align-items: center;
+}
+
+header .container #upperheader,
+header .container #lowerheader {
+    background-color: #000000;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+header .container #upperheader img {
+    height: 150px;
+    background-color: #000000;
+}
+
+header .container  {
+    align-items: center;
+}
+
+header .container #upperheader {
+    display: flex;
+    padding-right: 220px;
+    padding-left: 180px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+header .container #lowerheader nav ul {
+    display: flex;
+    padding-right: 260px;
+    padding-left: 220px;
+    font-size: 18px;
+    justify-content: space-between;
+    background-color: #000000;
+}
+
+header .container #lowerheader nav li {
+    display: inline;
+    border: none;
+    background-color: black;
+}
+
+header nav li a {
+    color: #fff;
+    background-color: #000000;
+    text-decoration: none;
+}
+
+article {
+    padding-top: 5px;
+}
+
+article .container {
+    width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.imagemseparador {
+    width: 950px;
+    height: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article .container img {
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+#history .container .fotohistorica {
+    height: 335px;
+}
+
+#titulos .container .fototrofeus {
+    height: 350px;
+}
+
+#symbols .container .fotosimbolos {
+    height: 350px;
+}
+
+#arena .container .fotoarena {
+    height: 320px;
+}
+
+section h3,
+form button {
+    font-family: 'Roboto, sans-serif';
+    font-weight: normal;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#contact .container {
+    margin-right: 50px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contact .container h2 {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #000000;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+#contact .container{
+    display: block;
+}
+
+form Input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-width: 1px;
+    border-style: inset;
+}
+
+form textarea {
+    resize: none;
+    height: 80px;
+}
+
+.contact-methods {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-methods h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.contact-methods p{
+    text-align: center;
+}
+
+#form{
+    padding-right: 50px;
+    border: none;
+}
+
+form button {
+    background-color: #000000;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #898b8c;
+}
+
+input:focus, textarea:focus{
+    outline-color: #f96c00;
+}
+
+footer {
+    background-color: #000000;
+    color:#ecf0f1;
+    padding: 16px 0;
+}
+
+footer .container p {
+    background-color: #000000;
+    text-align: center;
+}
+
+#map {
+    height: 80%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
